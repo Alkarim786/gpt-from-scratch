@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+# datasets, token files, checkpoints
+data/
+runs/*/ckpt.pt
+*.bin
+*.parquet
+*.pt
+.env

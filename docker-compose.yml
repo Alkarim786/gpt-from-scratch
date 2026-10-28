@@ -1,0 +1,8 @@
+# docker compose up --build   -> downloads data, trains the small CPU model, evaluates
+services:
+  train:
+    build: .
+    image: gpt-from-scratch:local
+    volumes:
+      - ./data:/app/data
+      - ./runs:/app/runs

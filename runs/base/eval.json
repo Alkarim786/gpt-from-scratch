@@ -1,0 +1,36 @@
+{
+  "cpu": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+  "threads": 4,
+  "languages": {
+    "en": {
+      "tokens": 59999,
+      "loss": 4.8967,
+      "perplexity": 133.85,
+      "bits_per_byte": 2.1803
+    },
+    "ta": {
+      "tokens": 59999,
+      "loss": 5.2244,
+      "perplexity": 185.75,
+      "bits_per_byte": 0.8843
+    }
+  },
+  "kv_cache": {
+    "no_cache": {
+      "seconds": 10.298,
+      "tokens_per_s": 19.4
+    },
+    "with_cache": {
+      "seconds": 3.676,
+      "tokens_per_s": 54.4
+    },
+    "identical_greedy_output": true,
+    "speedup": 2.8,
+    "prompt_tokens": 3,
+    "new_tokens": 200
+  },
+  "samples": {
+    "en": "The river was the game for \"PE) called \"MORATCIONPLTOJDWEEIHIBJS\nOther websites \n\n\nCEHTLL\n\n2007 births\nLiving people<|endoftext|>வன் (HA",
+    "ta": "தமிழ்நாடு ஊரக வளர்ச்சி, மொத்தம் 7 ஊராட்சி மன்ற உறுப்பினர்களைத் தேர்ந்தெடுக்கின்றனர். இவர்களில் பெண்கள் 93ஆம் ஆண்டு இந்திய மக்கள் தொகை கணக்கெடுப்பின்படி, மொத்த மக்கள் தொகை கணக்கெடுப்பின்படி, மொத்த மக்கள் தொகை 299 பேரும் உள்ளனர்.\n\nஅடிப்படை வசதிகள் \n|-id=5ஆம் ஆண்டு மக்கள் தொகை 307001% of 116 பேரும் உள்ளனர்.\n"
+  }
+}

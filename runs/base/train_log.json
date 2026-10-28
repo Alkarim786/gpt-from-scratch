@@ -1,0 +1,63 @@
+{
+  "args": {
+    "data": "data\\prepared",
+    "out": "runs\\base",
+    "steps": 1000,
+    "batch": 16,
+    "block": 256,
+    "layers": 4,
+    "heads": 4,
+    "embd": 256,
+    "dropout": 0.0,
+    "lr": 0.001,
+    "warmup": 50,
+    "weight_decay": 0.1,
+    "eval_every": 100,
+    "eval_batches": 10,
+    "threads": 4,
+    "seed": 1337,
+    "resume": true
+  },
+  "resumed_from_step": 700,
+  "config": {
+    "vocab_size": 8192,
+    "block_size": 256,
+    "n_layer": 4,
+    "n_head": 4,
+    "n_embd": 256,
+    "dropout": 0.0,
+    "bias": true
+  },
+  "params_total": 5322240,
+  "params_non_embedding": 5256704,
+  "train_seconds": 1197.8,
+  "tokens_per_second": 1025.9,
+  "device": "cpu",
+  "threads": 4,
+  "log": [
+    {
+      "step": 800,
+      "train_loss": 4.7005,
+      "val_loss": 5.1042,
+      "val_ppl": 164.72,
+      "elapsed_s": 367.9,
+      "tokens_seen": 409600
+    },
+    {
+      "step": 900,
+      "train_loss": 4.7235,
+      "val_loss": 5.0649,
+      "val_ppl": 158.36,
+      "elapsed_s": 728.0,
+      "tokens_seen": 819200
+    },
+    {
+      "step": 1000,
+      "train_loss": 4.6896,
+      "val_loss": 5.0347,
+      "val_ppl": 153.66,
+      "elapsed_s": 1197.5,
+      "tokens_seen": 1228800
+    }
+  ]
+}

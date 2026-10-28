@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tinygpt"
+version = "0.1.0"
+description = "GPT-style transformer, byte-level BPE tokenizer and KV cache written from scratch; trained on Tamil + English Wikipedia"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Karim (Alkarim786)" }]
+requires-python = ">=3.11"
+dependencies = ["torch>=2.2", "numpy>=1.26", "regex>=2023.0", "pyarrow>=15", "httpx>=0.27"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+plot = ["matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+include = ["tinygpt*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501", "E731"]

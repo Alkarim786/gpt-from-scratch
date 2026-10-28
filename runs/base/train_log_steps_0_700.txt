@@ -1,0 +1,9 @@
+params: 5.26M non-embedding, 5.32M total; device=cpu
+{"step": 0, "train_loss": 9.0466, "val_loss": 9.0448, "val_ppl": 8474.47, "elapsed_s": 19.8, "tokens_seen": 0}
+{"step": 100, "train_loss": 6.1217, "val_loss": 6.4131, "val_ppl": 609.79, "elapsed_s": 504.6, "tokens_seen": 409600}
+{"step": 200, "train_loss": 5.7005, "val_loss": 5.9447, "val_ppl": 381.73, "elapsed_s": 874.4, "tokens_seen": 819200}
+{"step": 300, "train_loss": 5.3147, "val_loss": 5.6785, "val_ppl": 292.51, "elapsed_s": 1253.8, "tokens_seen": 1228800}
+{"step": 400, "train_loss": 5.1824, "val_loss": 5.547, "val_ppl": 256.46, "elapsed_s": 1654.7, "tokens_seen": 1638400}
+{"step": 500, "train_loss": 4.9035, "val_loss": 5.3276, "val_ppl": 205.94, "elapsed_s": 2076.6, "tokens_seen": 2048000}
+{"step": 600, "train_loss": 4.8575, "val_loss": 5.2566, "val_ppl": 191.83, "elapsed_s": 2472.5, "tokens_seen": 2457600}
+{"step": 700, "train_loss": 4.7982, "val_loss": 5.1702, "val_ppl": 175.94, "elapsed_s": 2938.1, "tokens_seen": 2867200}
